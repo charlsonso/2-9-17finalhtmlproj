@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Charlson's Cheeses</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="final.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	
+	<header>
+	
+	<a href="main.html"><h1>Charlson's Cheeses</h1></a>
+	<nav>
+   	<ul>
+     	<li><a href="about.htm">About</a></li>
+     	<li><a href="contact.htm">Contact</a></li>
+     	<li><a href="slideshow.htm">Slide Show</a></li>
+     	<li><a href="media.htm">Media</a></li> 
+     	<li><a href="privacypolicy.htm">Privacy Policy</a></li>   
+   	</ul>      
+  	</nav>
+	</header>
+
+	<br/>
+
+
+<div class="contact">
+
+
+<h6>Contact Us <br/> a: 2373 Utley Rd., p: 818-770-0870 
+<table>
+
+	<tr>
+	<th>Day of Operation</th> <th>Times of Operation</th>
+	</tr>
+
+	<tr>
+		<td>Monday-Friday</td> <div id="time"><td>9-5</td></div>
+	</tr>
+
+	<tr>
+		<td>Weekends</td><div id="time"><td>10-2</td></div>
+	</tr>
+	</table>
+<div class="map">
+	<div id="googleMap" style="width:50%;height:400px;"></div>
+	<script>
+	function myMap() {
+	var mapProp= {
+    center:new google.maps.LatLng(34.2288,-118.2351),
+    zoom:5,
+};
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</div>
+	</h5>
+	
+</div>
+
+
+
+
+<br>
+
+
+
+</body>
+</html>
